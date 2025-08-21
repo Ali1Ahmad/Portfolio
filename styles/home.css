@@ -1,0 +1,16 @@
+/* Hero for Home */
+.hero {
+  position: relative;
+  padding: var(--s8) 0 var(--s7);
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #fee2e2 0%, transparent 60%),
+    radial-gradient(1000px 400px at 100% 0%, #ffe4e6 0%, transparent 55%),
+    var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.hero h1 {
+  font-size: clamp(var(--fs-700), 4vw + 1rem, var(--fs-800));
+  line-height: 1.15;
+  margin: 0 0 var(--s3);
+}
+.hero .cta { display: flex; gap: .75rem; flex-wrap: wrap; margin-top: var(--s5); }
