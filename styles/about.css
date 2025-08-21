@@ -2,3 +2,14 @@
 @media (min-width: 768px) { .stack { grid-template-columns: 240px 1fr; } }
 .about-text { max-width: var(--max-w); }
 .values h3 { margin: 0 0 .5rem; font-size: var(--fs-400); }
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* space between icon and text */
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
